@@ -1,0 +1,101 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAF2D7;
+    background-image: url("form-hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0;
+    background-attachment: fixed;
+}
+
+.header {
+    max-width: 90%;
+    width: 900px;
+    margin: auto;
+    box-shadow: inset; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgba(78, 53, 6);
+    padding: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+.header #title{
+    font-weight: 900px;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    max-width: 90%;
+    width: 900px;
+    margin: auto;
+    box-shadow: inset; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 30px 40px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+fieldset{
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+legend{
+    color: rgb(78, 53, 6);
+    font-weight: bold;
+    background-color: rgba(200, 200, 200, 0.3);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+input[type="text"], select{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+input[type="radio"]{
+    margin-right: 5px;
+}
+
+button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(78, 53, 6);
+    font-weight: bolder;
+    color: #fff;
+}
+
+label{
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+}
